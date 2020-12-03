@@ -1,5 +1,5 @@
-x = float(input("first namber"))
-y = float(input("second namber"))
+x = float(input("first number"))
+y = float(input("second number"))
 operation = input("operation")
 
 result = None
