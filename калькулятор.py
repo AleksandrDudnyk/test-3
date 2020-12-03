@@ -11,8 +11,12 @@ elif operation == "-":
 elif operation == "*":
     result = x*y
 elif operation == "/":
-    result = x/y
+    if y is not y == 0:
+        result = x/y
+    else:
+        print('do not divide on zero')
 else:
     print("unsupported operation")
-    if result is not None:
-        print("result:",result)
+
+if result is not None:
+    print(result)
