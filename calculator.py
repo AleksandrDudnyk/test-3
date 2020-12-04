@@ -4,15 +4,15 @@ operation = input("operation")
 
 result = None
 
-if  operation == "+":
-    result = x+y    
+if operation == "+":
+    result = x + y
 elif operation == "-":
-    result = x-y
+    result = x - y
 elif operation == "*":
-    result = x*y
+    result = x * y
 elif operation == "/":
     if y is not y == 0:
-        result = x/y
+        result = x / y
     else:
         print('do not divide on zero')
 else:
